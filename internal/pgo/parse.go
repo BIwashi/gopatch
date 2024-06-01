@@ -85,23 +85,23 @@ func Parse(fset *token.FileSet, filename string, src []byte) (*File, error) {
 	}
 
 	// debug
-	fmt.Printf("file.Package: %s\n", file.Package)
-	fmt.Printf("file.Imports: %v\n", file.Imports)
-	fmt.Printf("file.Comments: %v\n", file.Comments)
-	fmt.Printf("file.Node: %v\n", file.Node)
-	fmt.Printf("f.Decls: %v\n", f.Decls)
-	fmt.Printf("f.Imports: %v\n", f.Imports)
-	fmt.Printf("f.Comments: %v\n", f.Comments)
-	fmt.Printf("f.Name: %v\n", f.Name)
-	fmt.Printf("f.Scope: %v\n", f.Scope)
+	// fmt.Printf("file.Package: %s\n", file.Package)
+	// fmt.Printf("file.Imports: %v\n", file.Imports)
+	// fmt.Printf("file.Comments: %v\n", file.Comments)
+	// fmt.Printf("file.Node: %v\n", file.Node)
+	// fmt.Printf("f.Decls: %v\n", f.Decls)
+	// fmt.Printf("f.Imports: %v\n", f.Imports)
+	// fmt.Printf("f.Comments: %v\n", f.Comments)
+	// fmt.Printf("f.Name: %v\n", f.Name)
+	// fmt.Printf("f.Scope: %v\n", f.Scope)
 
-	for _, decl := range f.Decls {
-		ast.Print(fset, decl)
-	}
+	// for _, decl := range f.Decls {
+	// 	ast.Print(fset, decl)
+	// }
 
-	for _, aug := range augs {
-		fmt.Printf("aug: %+v\n", aug)
-	}
+	// for _, aug := range augs {
+	// 	fmt.Printf("aug: %+v\n", aug)
+	// }
 
 	// We allow only one declaration in the patch.
 	switch len(f.Decls) {
@@ -130,8 +130,8 @@ func Parse(fset *token.FileSet, filename string, src []byte) (*File, error) {
 			n = body
 
 			// debug
-			ast.Print(fset, body)
-			ast.Print(fset, body.List)
+			// ast.Print(fset, body)
+			// ast.Print(fset, body.List)
 
 			// If the body contains a single expression, it was from a
 			// top-level expression.
