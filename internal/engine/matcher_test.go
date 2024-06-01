@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/BIwashi/gopatch/internal/data"
 	"github.com/stretchr/testify/assert"
-	"github.com/uber-go/gopatch/internal/data"
 )
 
 type matchCase struct {

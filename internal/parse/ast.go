@@ -24,7 +24,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/uber-go/gopatch/internal/pgo"
+	"github.com/BIwashi/gopatch/internal/pgo"
 )
 
 // Program is a single gopatch program consisting of one or more changes.

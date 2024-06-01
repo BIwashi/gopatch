@@ -26,7 +26,7 @@ import (
 	"go/scanner"
 	"go/token"
 
-	"github.com/uber-go/gopatch/internal/parse/section"
+	"github.com/BIwashi/gopatch/internal/parse/section"
 	"go.uber.org/multierr"
 )
 

@@ -25,9 +25,9 @@ import (
 	"go/token"
 	"testing"
 
+	"github.com/BIwashi/gopatch/internal/parse"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/uber-go/gopatch/internal/parse"
 )
 
 func TestCompileMeta(t *testing.T) {

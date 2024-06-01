@@ -27,8 +27,8 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
-	"github.com/uber-go/gopatch/internal/pgo"
+	"github.com/BIwashi/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/pgo"
 	"golang.org/x/tools/go/ast/astutil"
 )
 

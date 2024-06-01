@@ -27,12 +27,12 @@ import (
 	"go/token"
 	"testing"
 
+	"github.com/BIwashi/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/parse/section"
+	"github.com/BIwashi/gopatch/internal/text"
 	"github.com/kr/pretty"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/uber-go/gopatch/internal/goast"
-	"github.com/uber-go/gopatch/internal/parse/section"
-	"github.com/uber-go/gopatch/internal/text"
 )
 
 func TestParseMeta(t *testing.T) {

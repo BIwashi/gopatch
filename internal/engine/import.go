@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
-	"github.com/uber-go/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/goast"
 	"golang.org/x/tools/go/ast/astutil"
 )
 

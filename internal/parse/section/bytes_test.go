@@ -23,8 +23,8 @@ package section
 import (
 	"testing"
 
+	"github.com/BIwashi/gopatch/internal/text"
 	"github.com/stretchr/testify/assert"
-	"github.com/uber-go/gopatch/internal/text"
 )
 
 func TestToBytes(t *testing.T) {

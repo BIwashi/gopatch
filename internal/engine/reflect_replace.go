@@ -24,7 +24,7 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/data"
 )
 
 // compileGeneric compiles a Replacer for arbitrary values inside a Go AST.

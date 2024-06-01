@@ -26,8 +26,8 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/goast"
-	"github.com/uber-go/gopatch/internal/pgo/augment"
+	"github.com/BIwashi/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/pgo/augment"
 	"go.uber.org/multierr"
 	"golang.org/x/tools/go/ast/astutil"
 )

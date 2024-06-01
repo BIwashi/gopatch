@@ -225,9 +225,9 @@ func skipTest(testFile, testName string) bool {
 // eventually should. It is essentially a todo list of bugs to be fixed.
 // For now, skip these tests.
 var testsToSkip = map[string]struct{}{
-	"add_error_param/a":              {}, // https://github.com/uber-go/gopatch/issues/6
+	"add_error_param/a":              {}, // https://github.com/BIwashi/gopatch/issues/6
 	"func_within_a_func/two_dots":    {},
-	"mismatched_dots/unnamed":        {}, // https://github.com/uber-go/gopatch/issues/9
+	"mismatched_dots/unnamed":        {}, // https://github.com/BIwashi/gopatch/issues/9
 	"switch_elision/body":            {},
 	"select_elision/example":         {},
 	"case_elision/a":                 {},
@@ -235,8 +235,8 @@ var testsToSkip = map[string]struct{}{
 	"const_to_var/single_top_level":  {},
 	"struct_field_list/zero":         {},
 	"struct_field_list/middle":       {},
-	"value_group_elision/func":       {}, // https://github.com/uber-go/gopatch/issues/6
-	"value_list_elision/foo":         {}, // https://github.com/uber-go/gopatch/issues/6
+	"value_group_elision/func":       {}, // https://github.com/BIwashi/gopatch/issues/6
+	"value_list_elision/foo":         {}, // https://github.com/BIwashi/gopatch/issues/6
 	"range_value_elision/no_params":  {},
 	"range_value_elision/one_param":  {},
 	"range_value_elision/two_params": {},

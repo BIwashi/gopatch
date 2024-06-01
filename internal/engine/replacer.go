@@ -25,9 +25,9 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
-	"github.com/uber-go/gopatch/internal/goast"
-	"github.com/uber-go/gopatch/internal/pgo"
+	"github.com/BIwashi/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/pgo"
 )
 
 // Replacer generates portions of the Go AST meant to replace sections matched

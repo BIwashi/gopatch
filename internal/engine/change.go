@@ -26,8 +26,8 @@ import (
 	"go/token"
 	"sort"
 
-	"github.com/uber-go/gopatch/internal/data"
-	"github.com/uber-go/gopatch/internal/parse"
+	"github.com/BIwashi/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/parse"
 )
 
 // Change is a single Change in a program.

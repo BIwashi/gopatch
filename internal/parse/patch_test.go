@@ -27,13 +27,13 @@ import (
 	"go/token"
 	"testing"
 
+	"github.com/BIwashi/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/parse/section"
+	"github.com/BIwashi/gopatch/internal/pgo"
+	"github.com/BIwashi/gopatch/internal/text"
 	"github.com/kr/pretty"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/uber-go/gopatch/internal/goast"
-	"github.com/uber-go/gopatch/internal/parse/section"
-	"github.com/uber-go/gopatch/internal/pgo"
-	"github.com/uber-go/gopatch/internal/text"
 )
 
 // sectionFromLines builds a section.Section with the given lines. The

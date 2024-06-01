@@ -25,7 +25,7 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/data"
 )
 
 // SliceDotsMatcher implements support for "..." in portions of the AST where

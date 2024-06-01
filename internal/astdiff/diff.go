@@ -34,8 +34,8 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/diff"
-	"github.com/uber-go/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/diff"
+	"github.com/BIwashi/gopatch/internal/goast"
 )
 
 // Changelog records the ranges of positions changed over the course

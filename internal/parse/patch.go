@@ -26,8 +26,8 @@ import (
 	goast "go/ast"
 	"io"
 
-	"github.com/uber-go/gopatch/internal/parse/section"
-	"github.com/uber-go/gopatch/internal/pgo"
+	"github.com/BIwashi/gopatch/internal/parse/section"
+	"github.com/BIwashi/gopatch/internal/pgo"
 )
 
 // parsePatch parses a Patch from the given source.

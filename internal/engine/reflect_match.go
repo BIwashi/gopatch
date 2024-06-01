@@ -24,8 +24,8 @@ import (
 	"go/ast"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
-	"github.com/uber-go/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/goast"
 )
 
 // GenericNodeMatcher is the top-level matcher for ast.Node objects.

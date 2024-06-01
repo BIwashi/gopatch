@@ -24,9 +24,9 @@ import (
 	"go/token"
 	"testing"
 
+	"github.com/BIwashi/gopatch/internal/text"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/uber-go/gopatch/internal/text"
 )
 
 func TestSplit(t *testing.T) {

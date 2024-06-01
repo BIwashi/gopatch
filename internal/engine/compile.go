@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"go/token"
 
-	"github.com/uber-go/gopatch/internal/parse"
+	"github.com/BIwashi/gopatch/internal/parse"
 	"go.uber.org/multierr"
 )
 

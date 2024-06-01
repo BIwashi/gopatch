@@ -23,7 +23,7 @@ package engine
 import (
 	"go/token"
 
-	"github.com/uber-go/gopatch/internal/parse"
+	"github.com/BIwashi/gopatch/internal/parse"
 )
 
 // MetavarType defines the different types of metavariables accepted in a
