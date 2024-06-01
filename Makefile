@@ -57,4 +57,4 @@ $(STATICCHECK): tools/go.mod
 	cd tools && go install honnef.co/go/tools/cmd/staticcheck
 
 $(EXTRACT_CHANGELOG): tools/cmd/extract-changelog/main.go
-	cd tools && go install github.com/uber-go/gopatch/tools/cmd/extract-changelog
+	cd tools && go install github.com/BIwashi/gopatch/tools/cmd/extract-changelog

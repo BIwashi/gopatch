@@ -24,7 +24,7 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/data"
 )
 
 // PosMatcher matches token.Pos fields in an AST.

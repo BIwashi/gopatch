@@ -9,9 +9,9 @@ import (
 	"testing"
 	"testing/iotest"
 
+	"github.com/BIwashi/gopatch/internal/engine"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/uber-go/gopatch/internal/engine"
 )
 
 // fakeParseAndCompile builds a mock implementation of a function

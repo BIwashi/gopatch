@@ -1,4 +1,4 @@
-module github.com/uber-go/gopatch
+module github.com/BIwashi/gopatch
 
 go 1.22
 

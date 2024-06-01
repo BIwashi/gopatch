@@ -25,7 +25,7 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/goast"
 )
 
 type value struct {

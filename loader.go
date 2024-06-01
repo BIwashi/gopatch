@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/uber-go/gopatch/internal/engine"
-	"github.com/uber-go/gopatch/internal/parse"
+	"github.com/BIwashi/gopatch/internal/engine"
+	"github.com/BIwashi/gopatch/internal/parse"
 	"go.uber.org/multierr"
 )
 

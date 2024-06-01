@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"go/token"
 
-	"github.com/uber-go/gopatch/internal/parse/section"
+	"github.com/BIwashi/gopatch/internal/parse/section"
 )
 
 // Parse parses a Program.

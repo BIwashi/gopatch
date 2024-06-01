@@ -26,8 +26,8 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
-	"github.com/uber-go/gopatch/internal/goast"
+	"github.com/BIwashi/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/goast"
 )
 
 // MetavarMatcher is compiled from a metavarible occurring in the minus

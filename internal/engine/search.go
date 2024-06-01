@@ -26,7 +26,7 @@ import (
 	"go/token"
 	"reflect"
 
-	"github.com/uber-go/gopatch/internal/data"
+	"github.com/BIwashi/gopatch/internal/data"
 	"golang.org/x/tools/go/ast/astutil"
 )
 

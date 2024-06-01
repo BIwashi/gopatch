@@ -35,10 +35,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/BIwashi/gopatch/internal/astdiff"
+	"github.com/BIwashi/gopatch/internal/engine"
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/diff"
-	"github.com/uber-go/gopatch/internal/astdiff"
-	"github.com/uber-go/gopatch/internal/engine"
 	"go.uber.org/multierr"
 	"golang.org/x/tools/imports"
 )

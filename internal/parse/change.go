@@ -20,7 +20,7 @@
 
 package parse
 
-import "github.com/uber-go/gopatch/internal/parse/section"
+import "github.com/BIwashi/gopatch/internal/parse/section"
 
 // Parses the change at index i.
 func (p *parser) parseChange(i int, c *section.Change) (_ *Change, err error) {
